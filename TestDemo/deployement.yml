@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-container
-          image: my-local-image:latest
+          image: nikitamane/my-local-image:latest
           ports:
             - containerPort: 6060
